@@ -12,8 +12,8 @@ window.addEventListener("load" , ()=>{
 // Card Slider
 let slide = document.querySelector(".container")
 let card = document.querySelectorAll(".slider .card")
-let prev = document.querySelector(".prev")
-let next = document.querySelector(".next")
+let prev = document.querySelector("#prev")
+let next = document.querySelector("#next")
 
 
 let index = 0

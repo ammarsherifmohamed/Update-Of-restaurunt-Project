@@ -39,7 +39,7 @@ body {
     }
 }
 
-.fade-out{
+.fade-out {
     opacity: 0;
     transition: opacity 0.5s ease;
     pointer-events: none;
@@ -252,26 +252,23 @@ header a:hover {
     cursor: pointer;
 }
 
-.prev,
-.next {
+#prev,
+#next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #3838488e;
-    color: white;
-    font-size: 24px;
-    padding: 10px;
-    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
     border: none;
-    outline: none;
+    cursor: pointer;
 }
 
-.prev {
+#prev {
     left: 97%;
 }
 
-.next {
-    left: 10px;
+#next {
+    left: 20px;
 }
 
 .offers .card img {
@@ -562,13 +559,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
     left: 95%;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    background-color: #aaa;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -577,13 +568,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
     left: 20px;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    background-color: #aaa;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -594,13 +579,7 @@ header a:hover {
     position: absolute;
     top: 30px;
     left: 95%;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    background-color: #aaa;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+    color: #fff;
     cursor: pointer;
 }
 
